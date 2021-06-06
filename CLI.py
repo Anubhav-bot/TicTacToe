@@ -21,8 +21,11 @@ def restart():
             global theBoard
             theBoard = the_board.copy()
             game()
-        else:
+        elif res.lower() == "n":
             print("thanks for playing!!!".title())
+        else:
+            print("please enter a valid input!")
+            restart()
 
     
     
