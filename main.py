@@ -1,4 +1,8 @@
 import os
+try:
+  import pygame
+except:
+  _ = os.system('pip3 install pygame')
 
 inp = input("CLI or GUI? \n").upper()
 
