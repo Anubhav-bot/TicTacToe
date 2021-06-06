@@ -70,9 +70,15 @@ def game():
 # Game Loop
 
     while count > 0 and not game_over:
-            
-        draw_board(theBoard)
-        inp = int(input(f"{turn}'s turn. Where to move?: "))
+        
+        while True:
+            try:
+                draw_board(theBoard)
+                inp = int(input(f"{turn}'s turn. Where to move?: "))
+                break
+            except ValueError: 
+                print(f'Invalid input! Please enter a number.')
+                       
         
         if inp in theBoard and theBoard[inp] == ' ':
             theBoard[inp] = turn
