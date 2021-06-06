@@ -4,9 +4,9 @@ Upon starting main.py, you will be prompted to choose between CLI or GUI mode. Y
 
 CLI:
 
-The game board is identical to the numbers in the numeric keybad. Hence, you can type those numbers to choose the corresponding place in the board.
+The game board is identical to the numbers in the numeric keypad. Hence, you can type those numbers to choose the corresponding place in the board.
 
 
 GUI:
 
-In GUI mode, you can click on the place you want to place your "thing".
+In GUI mode, you can click on the place you want to place your "player".
