@@ -9,4 +9,6 @@ The game board is identical to the numbers in the numeric keypad. Hence, you can
 
 GUI:
 
-In GUI mode, you can click on the place you want to place your "player".
+In GUI mode, you can click on the place you want to place your mark.
+
+(I'm assuming you already know how to play the game itself).
